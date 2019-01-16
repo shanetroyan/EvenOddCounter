@@ -6,8 +6,6 @@ public class EvenOddCounter {
 //Author: Shane Troyan
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int x;
-        int y;
         int i;
         int CounterValue;
         System.out.println("Even or Odd Counter: A Basic Counter That Counts Down From The Number That Has Been Input By The User (It Cannot Be Negative) and Displays whether the Number Displayed is Even or Odd");
