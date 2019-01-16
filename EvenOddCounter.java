@@ -21,13 +21,13 @@ public class EvenOddCounter {
         for (i = CounterValue; i > 0;) {
 
             while (i % 2 == 0) { //while the number is even
-                System.out.println("I'm Even" + " " + i); //print <
+                System.out.println("I'm Even" + " " + i); 
                 i = i - 1;
 
             }
             while (i % 2 != 0) { //while the number is odd 
 
-                System.out.println("I'm Odd" + " " + i);  //print -
+                System.out.println("I'm Odd" + " " + i);  
                 i = i - 1;
             }
         }
